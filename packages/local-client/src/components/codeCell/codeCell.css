@@ -1,0 +1,30 @@
+.code-cell {
+  height: calc(100% - 10px);
+  display: flex;
+  flex-direction: row;
+}
+
+.progress-wrapper {
+  flex-grow: 1;
+  background-color: white;
+}
+
+.progress-cover {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 10%;
+  animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

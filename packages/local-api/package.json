@@ -1,0 +1,32 @@
+{
+  "name": "@note-js/local-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "start": "tsc --watch --preserveWatchOutput",
+    "prepublishOnly": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "@note-js/local-client": "^1.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "http-proxy-middleware": "^2.0.3"
+  },
+  "gitHead": "d06aa2b67bff44e2c9e9c11c23617ea735925ba0"
+}
